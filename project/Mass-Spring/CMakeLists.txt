@@ -45,7 +45,7 @@ target_include_directories(Mass-Spring PUBLIC ${THIRD_PARTY_LIBRARY_PATH}/glad/i
 target_include_directories(Mass-Spring PUBLIC ${THIRD_PARTY_LIBRARY_PATH}/glfw/include)
 target_include_directories(Mass-Spring PUBLIC ${THIRD_PARTY_LIBRARY_PATH}/imgui)
 target_include_directories(Mass-Spring PUBLIC ${THIRD_PARTY_LIBRARY_PATH}/stb)
-target_include_directories(Mass-Spring PUBLIC ${THIRD_PARTY_LIBRARY_PATH}/eigen-3.4.0)
+target_include_directories(Mass-Spring PUBLIC ${THIRD_PARTY_LIBRARY_PATH}/eigen-3.4.0/Eigen)
 target_link_libraries(Mass-Spring glm)
 target_link_libraries(Mass-Spring glad)
 target_link_libraries(Mass-Spring glfw)
