@@ -11,7 +11,6 @@ set(BASE_HDR ../base/application.h
              ../base/input.h
              ../base/glsl_program.h
              ../base/camera.h
-             ../base/frustum.h
              ../base/transform.h
              ../base/texture.h
              ../base/texture2d.h)

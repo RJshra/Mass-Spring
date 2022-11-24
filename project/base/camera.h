@@ -1,6 +1,5 @@
 #pragma once
 
-#include "frustum.h"
 #include "transform.h"
 
 class Camera {
@@ -13,7 +12,6 @@ public:
 
 	virtual glm::mat4 getProjectionMatrix() const = 0;
 
-	virtual Frustum getFrustum() const = 0;
 };
 
 
@@ -30,7 +28,6 @@ public:
 
 	glm::mat4 getProjectionMatrix() const override;
 
-	virtual Frustum getFrustum() const override;
 };
 
 
@@ -49,5 +46,4 @@ public:
 
 	glm::mat4 getProjectionMatrix() const override;
 
-	virtual Frustum getFrustum() const override;
 };
